@@ -2,7 +2,7 @@
 // データはlocalStorageに保存（サーバー不要）
 
 const STORAGE_KEY = 'mote_line_usage'
-const FREE_LIMIT = 3
+const FREE_LIMIT = 9999999
 
 function getTodayKey() {
   const d = new Date()
